@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:pocketbase/pocketbase.dart';
 import 'main.dart';
 import 'nav_drawer.dart';
 
-class NewCustomerForm extends StatefulWidget {
-  //const NewCustomerForm({super.key});
+class CustomerList extends StatefulWidget {
+  //const CustomerList({super.key});
 
   @override
-  State<NewCustomerForm> createState() => _NewCustomerFormState();
+  State<CustomerList> createState() => _CustomerListState();
 }
 
-class _NewCustomerFormState extends State<NewCustomerForm> {
+class _CustomerListState extends State<CustomerList> {
   final _formKey = GlobalKey<FormState>();
   //final _biggerFont = const TextStyle(fontSize: 18);
   @override

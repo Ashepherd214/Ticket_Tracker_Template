@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'main.dart';
 import 'nav_drawer.dart';
 
-class NewCustomerForm extends StatefulWidget {
-  //const NewCustomerForm({super.key});
+class TicketList extends StatefulWidget {
+  //const TicketList({super.key});
 
   @override
-  State<NewCustomerForm> createState() => _NewCustomerFormState();
+  State<TicketList> createState() => _TicketListState();
 }
 
-class _NewCustomerFormState extends State<NewCustomerForm> {
+class _TicketListState extends State<TicketList> {
   final _formKey = GlobalKey<FormState>();
   //final _biggerFont = const TextStyle(fontSize: 18);
   @override
