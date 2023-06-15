@@ -18,7 +18,7 @@ class _CustomerListState extends State<CustomerList> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: const Text('New Customer Form'),
+        title: const Text('All Customers'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),

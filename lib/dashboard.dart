@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ticket_tracker_template/nav_drawer.dart';
 import 'package:ticket_tracker_template/new_customer.dart';
 import 'package:ticket_tracker_template/new_repair.dart';
+import 'package:ticket_tracker_template/customer_list.dart';
+import 'package:ticket_tracker_template/ticket_list.dart';
 
 class Dashboard extends StatelessWidget {
   @override
@@ -36,12 +38,12 @@ class Dashboard extends StatelessWidget {
                         height: 180.0,
                         child: Stack(
                           children: <Widget>[
-                            Positioned.fill(
-                              child: Image.asset(
-                                'res/images/material_design_4.jpg',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            // Positioned.fill(
+                            //   child: Image.asset(
+                            //     'res/images/material_design_4.jpg',
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
                             Positioned(
                                 bottom: 16.0,
                                 left: 16.0,
@@ -65,8 +67,7 @@ class Dashboard extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (context) => NewCustomerForm()),
+                      MaterialPageRoute(builder: (context) => CustomerList()),
                     );
                   },
                 ),
@@ -79,12 +80,12 @@ class Dashboard extends StatelessWidget {
                         height: 180.0,
                         child: Stack(
                           children: <Widget>[
-                            Positioned.fill(
-                              child: Image.asset(
-                                'res/images/material_design_4.jpg',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            // Positioned.fill(
+                            //   child: Image.asset(
+                            //     'res/images/material_design_4.jpg',
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
                             Positioned(
                                 bottom: 16.0,
                                 left: 16.0,
@@ -126,12 +127,12 @@ class Dashboard extends StatelessWidget {
                         height: 180.0,
                         child: Stack(
                           children: <Widget>[
-                            Positioned.fill(
-                              child: Image.asset(
-                                'res/images/material_design_3.jpg',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            // Positioned.fill(
+                            //   child: Image.asset(
+                            //     'res/images/material_design_3.jpg',
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
                             Positioned(
                                 bottom: 16.0,
                                 left: 16.0,
@@ -155,7 +156,7 @@ class Dashboard extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => NewRepairForm()),
+                      MaterialPageRoute(builder: (context) => TicketList()),
                     );
                   },
                 ),
@@ -168,12 +169,12 @@ class Dashboard extends StatelessWidget {
                         height: 180.0,
                         child: Stack(
                           children: <Widget>[
-                            Positioned.fill(
-                              child: Image.asset(
-                                'res/images/material_design_3.jpg',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            // Positioned.fill(
+                            //   child: Image.asset(
+                            //     'res/images/material_design_3.jpg',
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
                             Positioned(
                                 bottom: 16.0,
                                 left: 16.0,

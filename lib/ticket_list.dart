@@ -17,7 +17,7 @@ class _TicketListState extends State<TicketList> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: const Text('New Customer Form'),
+        title: const Text('All Tickets'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),

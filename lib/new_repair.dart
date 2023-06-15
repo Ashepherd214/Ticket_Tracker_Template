@@ -16,7 +16,7 @@ class _NewRepairFormState extends State<NewRepairForm> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: const Text('New Customer Form'),
+        title: const Text('New Repair Form'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ticket_tracker_template/customer_list.dart';
+import 'package:ticket_tracker_template/ticket_list.dart';
 
 class NavDrawer extends StatelessWidget {
   @override
@@ -26,14 +28,20 @@ class NavDrawer extends StatelessWidget {
             leading: const Icon(Icons.train),
             title: const Text('Ticket List'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => TicketList()),
+              );
             },
           ),
           ListTile(
             leading: const Icon(Icons.train),
             title: const Text('Customers'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => CustomerList()),
+              );
             },
           ),
         ],
