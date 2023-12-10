@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'nav_drawer.dart';
+import '../main.dart';
+import '../nav_drawer.dart';
 
 class NewCustomerForm extends StatefulWidget {
   //const NewCustomerForm({super.key});
@@ -72,6 +72,8 @@ class _NewCustomerFormState extends State<NewCustomerForm> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
+                    //Calls to customer.dart file create function to submit form data to
+                    //PostgreSQL server "customers"
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(content: Text('Processing Data')),
                     );

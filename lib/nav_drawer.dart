@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ticket_tracker_template/customer_list.dart';
-import 'package:ticket_tracker_template/ticket_list.dart';
+import 'package:ticket_tracker_template/Pages/customer_list.dart';
+import 'package:ticket_tracker_template/Pages/ticket_list.dart';
 
 class NavDrawer extends StatelessWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ticket_tracker_template/nav_drawer.dart';
-import 'package:ticket_tracker_template/new_customer.dart';
-import 'package:ticket_tracker_template/new_repair.dart';
-import 'package:ticket_tracker_template/customer_list.dart';
-import 'package:ticket_tracker_template/ticket_list.dart';
+import 'package:ticket_tracker_template/Pages/new_customer.dart';
+import 'package:ticket_tracker_template/Pages/new_repair.dart';
+import 'package:ticket_tracker_template/Pages/customer_list.dart';
+import 'package:ticket_tracker_template/Pages/ticket_list.dart';
 
 class Dashboard extends StatelessWidget {
   @override

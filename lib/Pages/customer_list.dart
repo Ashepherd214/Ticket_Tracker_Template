@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'nav_drawer.dart';
+import '../main.dart';
+import '../nav_drawer.dart';
 
-class TicketList extends StatefulWidget {
-  //const TicketList({super.key});
+class CustomerList extends StatefulWidget {
+  //const CustomerList({super.key});
 
   @override
-  State<TicketList> createState() => _TicketListState();
+  State<CustomerList> createState() => _CustomerListState();
 }
 
-class _TicketListState extends State<TicketList> {
+class _CustomerListState extends State<CustomerList> {
   final _formKey = GlobalKey<FormState>();
   //final _biggerFont = const TextStyle(fontSize: 18);
   @override
@@ -17,7 +17,7 @@ class _TicketListState extends State<TicketList> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: const Text('All Tickets'),
+        title: const Text('All Customers'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
